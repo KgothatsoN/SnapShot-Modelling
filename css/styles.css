@@ -71,6 +71,7 @@ h1  {
     outline: none;
 }
 
+/* Button Styling */
 .submit-email-btn   {
     position: absolute;
     width: 123px;
@@ -80,6 +81,7 @@ h1  {
     border-color: rgb(212,178,199);
     background: rgb(212,178,199);
     background: linear-gradient(324deg, rgba(212,178,199,1) 28%, rgba(212,191,178,1) 58%);  
+    box-shadow: 2px 6px 17px rgb(212 178 199) ;
     cursor: pointer;
     color: #fff;
     font-size: 30px;
@@ -101,6 +103,38 @@ img    {
     width: 100%;
 }    
 
+/* Media Query Styling for mobile devices and different screen resolutions */
+
+/* Large Laptop */
+@media  (max-width: 1440px) {
+    .content   {
+        margin-left: 15%;
+    }
+
+    .main-content   {
+        width: 60vw;
+    }
+
+    .crosshead  {
+        font-size: 2rem;
+    }
+
+    .model-image    {
+        width: 40vw;
+    }
+
+    .email-input    {
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .submit-email-btn   {
+        box-shadow: 2px 6px 17px rgb(212 178 199) ;
+    }
+}
+
+
+
+/* Tablet */
 @media (max-width: 768px)   {
     .container   {
         display: flex;
@@ -119,6 +153,7 @@ img    {
         order: 2;
         display: flex;
         width: 100vw;
+        padding-bottom: 50px;
     }
 
     .logo   {
@@ -130,18 +165,20 @@ img    {
         margin-left: 20px;
     }
 
-
+    .crosshead  {
+        font-size: 2rem;
+    }
     .email-input    {
-        width: 300px;
-        height: 36px;
+        width: 400px;
+        height: 50px;
         font-size: 20px;
         font-family: 'Montserrat Alternates', sans-serif;
     }
 
     .submit-email-btn   {
-        right: 21px;
-        height: 43px;
-        width: 64px;
+        right: 279px;
+        height: 58px;
+        width: 90px;
         box-shadow: 2px 6px 17px rgb(212 178 199) ;
     }
 
