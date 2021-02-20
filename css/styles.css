@@ -116,7 +116,7 @@ img    {
     }
 
     .crosshead  {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .model-image    {
@@ -140,7 +140,7 @@ img    {
 
     .crosshead  {
         width: 60%;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .model-image    {
@@ -193,7 +193,7 @@ img    {
     }
 
     .crosshead  {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .email-input    {
         width: 400px;
@@ -209,4 +209,38 @@ img    {
         box-shadow: 2px 6px 17px rgb(212 178 199) ;
     }
 
+}
+
+/* Mobile M/Iphone X design */
+@media (max-width: 375px)    {
+    .container  {
+        width: 100vw;
+        padding-bottom: 50px;
+    }
+
+    .main-content    {
+        width: 100vw;
+    }
+
+    .crosshead  {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .model-image    {
+        width: 100vw;
+    }
+
+    .email-input    {
+        width: 280px;
+        height: 30px;
+        font-size: 15px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .submit-email-btn   {
+        right: 25px;
+        height: 38px;
+        width: 67px;
+        box-shadow: 2px 6px 17px rgb(212 178 199);
+    }
 }
