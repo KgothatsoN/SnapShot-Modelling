@@ -191,7 +191,9 @@ img    {
         width: 94vw;
         margin-left: 20px;
     }
-
+    h1  {
+        margin-top: 0;
+    }
     .crosshead  {
         font-size: 1.5rem;
     }
@@ -209,6 +211,20 @@ img    {
         box-shadow: 2px 6px 17px rgb(212 178 199) ;
     }
 
+}
+
+/* Mobile L/Galay Note */
+@media  (max-width: 425px)  {
+    .crosshead  {
+        font-size: 1em;
+    }
+    .email-input    {
+        width: 380px;
+        font-size: 1em;
+    }
+    .submit-email-btn   {
+        right: 0;
+    }
 }
 
 /* Mobile M/Iphone X design */
