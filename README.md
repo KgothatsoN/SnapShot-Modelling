@@ -8,7 +8,7 @@ To create a modelling agencies front page. This mini project was to see what I h
 The main challenge was making the site responsive, with mobile view being the biggest concern.
 
 # Accomplishment
-The responsiveness of the site is something I am impressed with. The site transitions between the major resolutions, 375 (Medium Phone/Iphone X), 768 (Tablet), 1024 (Laptop), 1440 (Monitors/Large Laptops) seemlessly.
+The responsiveness of the site is something I am impressed with. The site transitions between the major resolutions; 320px (Mobile S), 375px (Medium Phone/Iphone X), 425px (Mobile L/Galaxy Note) 768px (Tablet), 1024 (Laptop), 1440px (Monitors/Large Laptops) seemlessly.
 
 # Mobile View
 ![](mobileview.png)
