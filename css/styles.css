@@ -260,3 +260,17 @@ img    {
         box-shadow: 2px 6px 17px rgb(212 178 199);
     }
 }
+
+@media (max-width: 320px) {
+    .logo {
+        font-size: 3rem;
+    }
+
+    .email-input    {
+        font-size: 12px;
+    }
+
+    .submit-email-btn   {
+        right: 3px;
+    }
+}
